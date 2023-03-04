@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "ArcadeClassic";
+  src: local(ArcadeClassic), url(ArcadeClassic.Aznm-ttf) format("truetype");
+}
+
+.button-container {
+  color: white;
+  font-family: "ArcadeClassic", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 250px;
+}
+
+button {
+  color: white;
+  font-family: "ArcadeClassic", sans-serif;
+  font-size: 56px;
+  background-color: green;
+  letter-spacing: 4px;
+  border-radius: 4px;
+  padding: 10px 25px;
+  box-shadow: inset 0 0 10px #ffffff;
+  padding: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.svg-img {
+  width: 150px;
+  display: none;
+}
+
+.svg-container {
+  margin-left: 50px;
+}
