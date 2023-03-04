@@ -1,3 +1,6 @@
+# live-site
+https://circuitsunfish-hutch86-biljanakotev.github.io/splash-screen/
+
 # splash-screen
 Splash Screen inspired by #DearJuniorDev's build challenge for Week: 02-23-2023
 
