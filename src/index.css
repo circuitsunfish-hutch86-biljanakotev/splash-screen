@@ -8,7 +8,7 @@
   font-family: "ArcadeClassic", sans-serif;
   font-size: 36px;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 350px;
 }
 
 button {
@@ -29,6 +29,7 @@ body {
 .svg-img {
   width: 150px;
   display: none;
+  margin-top: 650px;
 }
 
 .svg-container {
