@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ArcadeClassic";
-  src: local(ArcadeClassic), url(ArcadeClassic.Aznm-ttf) format("truetype");
+  src: url(https://github.com/circuitsunfish-hutch86-biljanakotev/splash-screen/blob/main/font/ARCADECLASSIC.TTF) format("truetype");
 }
 
 .button-container {
