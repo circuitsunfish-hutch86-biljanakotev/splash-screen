@@ -1,11 +1,15 @@
 @font-face {
-  font-family: "ArcadeClassic";
-  src: url(https://github.com/circuitsunfish-hutch86-biljanakotev/splash-screen/blob/main/font/ARCADECLASSIC.TTF) format("truetype");
+  font-family: 'arcadeclassicregular';
+  src: url('../font/arcadeclassic-webfont.woff') format('woff2'),
+    url('../font/arcadeclassic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 .button-container {
   color: white;
-  font-family: "ArcadeClassic", sans-serif;
+  font-family: "arcadeclassicregular", sans-serif;
   font-size: 36px;
   text-align: center;
   margin-top: 350px;
@@ -13,7 +17,7 @@
 
 button {
   color: white;
-  font-family: "ArcadeClassic", sans-serif;
+  font-family: "arcadeclassicregular", sans-serif;
   font-size: 56px;
   background-color: green;
   letter-spacing: 4px;
