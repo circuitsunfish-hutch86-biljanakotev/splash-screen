@@ -19,11 +19,16 @@ function playAudio() {
 // animate donkey kong on a path
 function animate(){
   gsap.registerPlugin(MotionPathPlugin);
-  gsap.to(svgImg,{duration:2, motionPath:[{x:200, y:50}, {x:400, y:0}, {x:500, y:-200}, {x:600, y:-300},{x:800,y:-350}], ease: "power1.inOut", scale:1.5});
+  gsap.to(svgImg,{duration:2.5, motionPath:[{x:200, y:50}, {x:400, y:0}, {x:500, y:-200}, {x:600, y:-300},{x:800,y:-350}], ease: "power1.inOut", scale:1.5});
   
 }
 animate()
 
+function deleteDK() {
+  svgImg.style.opacity = "0";
+  }
+  
+  audio.onended = deleteDK;
 
 
 
