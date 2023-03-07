@@ -11,9 +11,3 @@ startBtn.addEventListener("click", function () {
 function playAudio() {
   audio.play();
 }
-
-// function deleteDK() {
-//   svgImg.style.display = "none";
-// }
-
-// audio.onended = deleteDK;
