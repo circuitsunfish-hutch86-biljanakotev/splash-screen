@@ -38,6 +38,7 @@ body {
 
 .svg-container {
   margin-left: 50px;
+  text-align: center;
 }
 
 #svg-img{
@@ -46,3 +47,17 @@ body {
   top:20%;
 }
 
+.confetti{
+  width: 9px;
+  height:12px;
+  position:absolute;
+  z-index: 2;
+}
+
+#winner{
+  font-family: "arcadeclassicregular", sans-serif;
+  color: orangered;
+  font-size: 56px;
+  letter-spacing: 4px;
+  display: none;
+}
