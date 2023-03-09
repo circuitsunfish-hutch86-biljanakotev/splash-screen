@@ -3,7 +3,7 @@ const startBtn = document.getElementById("start-btn");
 const svgImg = document.getElementById("svg-img");
 const winnerBanner = document.getElementById("winner");
 const audio = new Audio("https://vgmsite.com/soundtracks/donkey-kong-arcade/rtchzzqw/03%20Stage%20Opening%201.mp3");
-
+const audio2 = new Audio ("https://vgmsite.com/soundtracks/donkey-kong-arcade/tqjjbsbi/14%20Unknown.mp3")
 
 
 
@@ -38,7 +38,7 @@ animate()
 function deleteDK() {
   svgImg.style.opacity = "0";
     // Confetti handler
-
+  audio2.play()
   winnerBanner.style.display = "block";
 
   let total = 275;

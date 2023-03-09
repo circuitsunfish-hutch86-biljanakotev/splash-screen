@@ -45,6 +45,7 @@ body {
   position: absolute;
   left:5%;
   top:20%;
+
 }
 
 .confetti{
@@ -61,3 +62,4 @@ body {
   letter-spacing: 4px;
   display: none;
 }
+
