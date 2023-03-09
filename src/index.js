@@ -28,14 +28,15 @@ function playAudio() {
 
 function animate(){
   gsap.registerPlugin(MotionPathPlugin);
-  gsap.to(svgImg,{duration:2, motionPath:[{x:200, y:50}, {x:400, y:0}, {x:450, y:-200}, {x:500, y:-300},{x:550,y:-350}], ease: "power1.inOut", scale:1.5});
- 
+  gsap.to(svgImg,{duration:2, motionPath:[{x:200, y:50}, {x:400, y:0}, {x:450, y:-200}, {x:500, y:-300},{x:550,y:-350}], ease:Power2.easeOut, scale:1.5});
+  gsap.to(svgImg, 2 / 2, {y:-350, ease:Bounce.easeOut, delay:2 / 4});
 }
 animate()
 
 // delete DK after music tract end
 
 function deleteDK() {
+
   svgImg.style.opacity = "0";
     // Confetti handler
   audio2.play()
